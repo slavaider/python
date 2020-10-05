@@ -1,0 +1,16 @@
+{
+  "tournaments": [
+    {
+      "name": "Aero",
+      "year": 2010
+    },
+    {
+      "name": "Fibro",
+      "year": 2011
+    },
+    {
+      "name": "Zeta",
+      "year": 2014
+    }
+  ]
+}
