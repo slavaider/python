@@ -1,5 +1,4 @@
 import asyncio
-from asyncio import FIRST_COMPLETED
 from collections import namedtuple
 
 import aiohttp
@@ -34,4 +33,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-    print(1)
