@@ -28,14 +28,15 @@ class st1(st):
         return f'{self.x} - {self.y} - {self.z}'
 
 
-t = st(1, 2)
-t1 = st.get_class(1)
-t2 = st.get_class1(1)
-print(t.display())
-print(t1.display())
-print(t2.display())
-t3 = st1(10)
-print(t3.display())
-# string.split
-s = "SMITH a b c"
-print(s.split())
+if __name__ == '__main__':
+    t = st(1, 2)
+    t1 = st.get_class(1)
+    t2 = st.get_class1(1)
+    print(t.display())
+    print(t1.display())
+    print(t2.display())
+    t3 = st1(10)
+    print(t3.display())
+    # string.split
+    s = "SMITH a b c"
+    print(s.split())
