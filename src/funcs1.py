@@ -19,8 +19,9 @@ def players(**kwargs):
         print(f'player {k} is {v}')
 
 
-greeting()
-print_name("Lol")
-print(is_palindrome('121'))
-print(cal(1, 2, 3))
-players(David=20, Roma=15)
+if __name__ == '__main__':
+    greeting()
+    print_name("Lol")
+    print(is_palindrome('121'))
+    print(cal(1, 2, 3))
+    players(David=20, Roma=15)

@@ -1,10 +1,10 @@
-class st:
+class Class:
     or1 = 0
 
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        print(f'create class {st.__name__}')
+        print(f'create class {Class.__name__}')
 
     def display(self):
         return f'{self.x} - {self.y}'
@@ -15,28 +15,27 @@ class st:
 
     @staticmethod
     def get_class1(x):
-        return st(x, 10)
+        return Class(x, 10)
 
 
-class st1(st):
+class Class1(Class):
     def __init__(self, z):
-        st.__init__(self, 1, 1)
+        Class.__init__(self, 1, 1)
         self.z = z
-        print(f'create class {st1.__name__}')
+        print(f'create class {Class1.__name__}')
 
     def display(self):
         return f'{self.x} - {self.y} - {self.z}'
 
 
 if __name__ == '__main__':
-    t = st(1, 2)
-    t1 = st.get_class(1)
-    t2 = st.get_class1(1)
+    # Creating class by init, class_method,staticmethod
+    t = Class(1, 2)
+    t1 = Class.get_class(1)
+    t2 = Class.get_class1(1)
     print(t.display())
     print(t1.display())
     print(t2.display())
-    t3 = st1(10)
+    # inheriting Class
+    t3 = Class1(10)
     print(t3.display())
-    # string.split
-    s = "SMITH a b c"
-    print(s.split())

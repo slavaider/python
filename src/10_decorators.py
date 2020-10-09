@@ -1,33 +1,19 @@
-
-
 from functools import wraps
 import time
-import math
 from timeit import default_timer as timer
-
-
-def hello_w1():
-    def internal1():
-        print("hello w")
-    return internal1
 
 
 def say(func):
     func()
 
 
-def log_d(func):
+def log_decorator_of_function(func):
     def wrap():
         print(f'Calling func {func}')
         func()
         print(f'{func} end')
+
     return wrap
-
-
-hello2 = hello_w1()
-# hello2()
-
-# say(hello_w)
 
 
 def count_time(func):
@@ -36,14 +22,19 @@ def count_time(func):
         start = timer()
         func(*args, **kwargs)
         end = timer()
-        print(f'{func.__name__} took {round(end - start,6)} seconds')
+        print(f'{func.__name__} took {round(end - start, 6)} seconds')
+
     return wrap
 
 
+@log_decorator_of_function
 @count_time
-def hello():
+def hello_function():
     time.sleep(3)
-    print("Hello w")
+    print("Hello world")
 
 
-hello()
+if __name__ == '__main__':
+    # wrap decorator
+    say(hello_function)
+    hello_function()

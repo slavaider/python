@@ -35,16 +35,16 @@ class Planets(Enum):
         return g * self.mass / (self.radius ** 2)
 
 
-print(Traffic.RED.name)
-print(Traffic.RED.value)
-for c in Traffic:
-    print(c)
-
-print(Traffic(1))
-print(Traffic['RED'])
-print(Priority.LOW < Priority.HIGH)
-combination = Color.RED | Color.GREEN
-print(combination)
-print(Color.RED in combination)
-print(Planets.EARTH.value)
-print(Planets.EARTH.surface_gravity)
+if __name__ == '__main__':
+    print(Traffic.RED.name)
+    print(Traffic.RED.value)
+    for c in Traffic:
+        print(c)
+    print(Traffic(1))
+    print(Traffic['RED'])
+    print(Priority.LOW < Priority.HIGH)
+    combination = Color.RED | Color.GREEN
+    print(combination)
+    print(Color.RED in combination)
+    print(Planets.EARTH.value)
+    print(Planets.EARTH.surface_gravity)

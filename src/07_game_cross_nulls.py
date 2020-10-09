@@ -51,4 +51,5 @@ def play_game(board_game):
         current_sign = 'X' if current_sign == '0' else '0'
 
 
-play_game(board)
+if __name__ == '__main__':
+    play_game(board)
