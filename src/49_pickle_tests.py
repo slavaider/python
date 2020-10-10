@@ -1,4 +1,3 @@
-# pickle or binary serialisation
 import pickle
 
 
@@ -22,9 +21,11 @@ class Character:
         self.health = state.get('health', 100)
 
 
-c = Character("elf", 10)
-with open(r'C:\Users\User\PycharmProjects\first_project\files\test.bin', "w+b") as file:
-    pickle.dump(c, file)
-with open(r'C:\Users\User\PycharmProjects\first_project\files\test.bin', "r+b") as file:
-    c = pickle.load(file)
-print(c.__dict__)
+if __name__ == '__main__':
+    # pickle or binary serialisation
+    c = Character("elf", 10)
+    with open(r'C:\Users\User\PycharmProjects\first_project\files\test.bin', "w+b") as file:
+        pickle.dump(c, file)
+    with open(r'C:\Users\User\PycharmProjects\first_project\files\test.bin', "r+b") as file:
+        c = pickle.load(file)
+    print(c.__dict__)

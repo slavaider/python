@@ -1,7 +1,7 @@
-# custom stack
 class Stack:
     def __init__(self):
         self.array = []
+        self.n = len(self.array)
 
     def push(self, item):
         self.array.append(item)
@@ -11,16 +11,10 @@ class Stack:
         return item
 
     def peek(self):
-        return self.__current()
-
-    def __current(self):
-        return self.array[self.count() - 1]
-
-    def count(self):
-        return len(self.array)
+        return self.array[self.n - 1]
 
     def __iter__(self):
-        self.index = self.count() - 1
+        self.index = self.n - 1
         return self
 
     def __next__(self):
@@ -31,8 +25,10 @@ class Stack:
         return result
 
 
-stack = Stack()
-stack.push(2)
-stack.push(3)
-print(stack.pop())
-print(stack.pop())
+if __name__ == '__main__':
+    # custom stack
+    stack = Stack()
+    stack.push(2)
+    stack.push(3)
+    print(stack.pop())
+    print(stack.pop())

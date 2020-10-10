@@ -13,7 +13,7 @@ class Airplane:
 
 class Fish:
     def swim(self):
-        print("swim with hands)")
+        print("swim with hands")
 
 
 class Flies(Protocol):
@@ -22,7 +22,11 @@ class Flies(Protocol):
 
 def process_flies(flies: List[Flies]):
     for i in flies:
-        i.fly()
+        try:
+            i.fly()
+        except Exception as ex:
+            print(repr(ex))
 
 
-process_flies([Bird(), Airplane(), Fish()])
+if __name__ == '__main__':
+    process_flies([Bird(), Airplane(), Fish()])

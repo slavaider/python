@@ -53,6 +53,7 @@ class Pagination:
     def get_items(self):
         return self.items
 
+
 if __name__ == '__main__':
     alphabet = list("abcdefghgklmnoprstuvwz")
     p = Pagination(alphabet, 4)

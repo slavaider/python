@@ -1,6 +1,6 @@
 class Pagination():
 
-    def __init__(self, items=[], page_size=10):
+    def __init__(self, items, page_size=10):
         self.items = items
         self.page_size = page_size
         self.total_page = 0

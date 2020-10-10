@@ -25,9 +25,6 @@ def convert_to_roman(num):
     return roman_num
 
 
-print(parse_roman("MDXL"))
-
-
 @overload
 def add(x: str, y: str, /, to_arabic: Literal[True]) -> int: ...
 
@@ -43,6 +40,13 @@ def add(x: str, y: str, /, to_arabic: bool) -> Union[str, int]:
     return c if to_arabic else convert_to_roman(c)
 
 
-result = add("MDXL", "MDCXV", to_arabic=False)
-print(result)
-print(parse_roman("MMMCLV"))
+if __name__ == '__main__':
+    print(parse_roman("MDXL"))
+    print()
+
+    result = add("MDXL", "MDCXV", to_arabic=False)
+    print(result)
+    print()
+
+    print(parse_roman("MMMCLV"))  # "MDXL" + "MDCXV"
+    print(add("MDXL", "MDCXV", to_arabic=True))

@@ -1,15 +1,3 @@
-# repr eq neq training
-from datetime import datetime
-
-lst = [1, 2, 3]
-print(lst)
-s = repr(lst)
-print(eval(s) == lst)
-dt = datetime.today()
-print(repr(dt))
-print(dt)
-
-
 class Character:
     def __init__(self, race, armor=10):
         self.race = race
@@ -30,7 +18,13 @@ class Character:
         pass
 
 
-c = Character('elf')
-d = eval(repr(c))
-print(repr(c))
-print(c == d)
+if __name__ == '__main__':
+    # repr eq neq dander-methods
+    lst = [1, 2, 3]
+    print(lst)
+    s = repr(lst)
+    print(eval(s) == lst)
+    c = Character('elf')
+    d = eval(repr(c))
+    print(repr(c))
+    print(c == d)
