@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2 style="text-align: center">{{the_title}}</h2>
+<table>
+    <caption>Log</caption>
+    <tr>
+        {% for row_title in row_titles %}
+        <th id="row_title">{{row_title}}</th>
+        {% endfor %}
+    </tr>
+    {% for log_row in the_data %}
+    <tr>
+        {% for item in log_row %}
+        <td>{{item}}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

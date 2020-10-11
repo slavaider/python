@@ -2,6 +2,8 @@
   <dictionary name="User">
     <words>
       <w>asyncio</w>
+      <w>endblock</w>
+      <w>endfor</w>
       <w>mdcxv</w>
       <w>mdxl</w>
       <w>postgresql</w>
