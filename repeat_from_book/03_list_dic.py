@@ -30,7 +30,6 @@ if __name__ == '__main__':
     res.pop()
     res.pop()
     for i in word:
-        if i in vowels:
-            if i not in res:
-                res.append(i)
+        if (i in vowels) and (i not in res):
+            res.append(i)
     print(res)
