@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="User">
     <words>
+      <w>aeiou</w>
       <w>asyncio</w>
       <w>endblock</w>
       <w>endfor</w>
@@ -9,6 +10,7 @@
       <w>postgresql</w>
       <w>tablename</w>
       <w>tock</w>
+      <w>vsearch</w>
     </words>
   </dictionary>
 </component>
