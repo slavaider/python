@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, escape
-import psycopg2
+
+from repeat_from_book.web_development.dbhelp import DataBaseUse
 
 
 def search4letters(phrase: str, letters: str = 'aeiou') -> set:
@@ -8,15 +9,16 @@ def search4letters(phrase: str, letters: str = 'aeiou') -> set:
 
 
 def log_request(req, results: str) -> None:
-    with connection:
-        with connection.cursor() as cursor:
-            _SQL = """INSERT INTO log(phrase, letters, ip, browser_string, results) VALUES (%s,%s,%s,%s,%s)"""
-            agent = str(req.user_agent.browser)
-            cursor.execute(_SQL, (req.form['phrase'], req.form['letters'], req.remote_addr, agent, results))
-            connection.commit()
+    with DataBaseUse(app.config['db_config']) as cursor:
+        _SQL = """INSERT INTO log(phrase, letters, ip, browser_string, results) VALUES (%s,%s,%s,%s,%s)"""
+        agent = str(req.user_agent.browser).title()
+        cursor.execute(_SQL, (req.form['phrase'], req.form['letters'], req.remote_addr, agent, results))
 
 
 app = Flask(__name__)
+app.config['db_config'] = {'dbname': 'test_database',
+                           'user': 'postgres',
+                           'password': 'admin'}
 
 
 @app.route('/search4', methods=['POST'])
@@ -38,16 +40,13 @@ def entry_page():
 
 @app.route('/view_log')
 def view_log():
-    with connection:
-        with connection.cursor() as cursor:
-            _SQL = """SELECT id,ts,phrase,letters,ip,browser_string,results FROM log"""
-            cursor.execute(_SQL)
-            contents = cursor.fetchall()
-            connection.commit()
+    with DataBaseUse(app.config['db_config'])  as cursor:
+        _SQL = """SELECT id,ts,phrase,letters,ip,browser_string,results FROM log"""
+        cursor.execute(_SQL)
+        contents = cursor.fetchall()
     titles = ['ID', 'Time', 'Phrase', 'Letters', 'IP', 'User_agent', 'Results']
     return render_template('view_log.html', the_title='View Log', row_titles=titles, the_data=contents)
 
 
 if __name__ == '__main__':
-    connection = psycopg2.connect(dbname='test_database', user='postgres', password='admin')
     app.run(debug=True)
