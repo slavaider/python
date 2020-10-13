@@ -1,16 +1,23 @@
 {% extends 'base.html' %}
 {% block body %}
-<h2 style="text-align: center">{{the_title}} <a href="/">
-    <input type="button" value="На главную"/>
-</a></h2>
+<h2 style="text-align: center">{{the_title}}
+    <div class="ml-1">
+        <a href="/">
+            <input type="button" class="btn btn-success" value="На главную"/>
+        </a>
+    </div>
+</h2>
 
-<table>
-    <caption>Log</caption>
+<table class="table table-dark">
+    <caption></caption>
+    <thead>
     <tr>
         {% for row_title in row_titles %}
         <th id="row_title">{{row_title}}</th>
         {% endfor %}
     </tr>
+    </thead>
+    <tbody>
     {% for log_row in the_data %}
     <tr>
         {% for item in log_row %}
@@ -18,5 +25,6 @@
         {% endfor %}
     </tr>
     {% endfor %}
+    </tbody>
 </table>
 {% endblock %}
