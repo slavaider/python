@@ -1,18 +1,14 @@
-from flask import Flask, render_template, request, session
+import time
+
+from flask import Flask, render_template, request, session, copy_current_request_context
 from repeat_from_book.checker import check_logged_in
 from repeat_from_book.web_development.dbhelp import DataBaseUse, MyConnectionError, CredentialError, SQLError
+from threading import Thread
 
 
 def search4letters(phrase: str, letters: str = 'aeiou') -> set:
     """Ищет буквы из letters в phrase"""
     return set(letters).intersection(set(phrase))
-
-
-def log_request(req, results: str) -> None:
-    with DataBaseUse(app.config['db_config']) as cursor:
-        _SQL = """INSERT INTO log(phrase, letters, ip, browser_string, results) VALUES (%s,%s,%s,%s,%s)"""
-        agent = str(req.user_agent.browser).title()
-        cursor.execute(_SQL, (req.form['phrase'], req.form['letters'], req.remote_addr, agent, results))
 
 
 app = Flask(__name__)
@@ -24,12 +20,21 @@ app.secret_key = 'AL:cjclcjalcjalckjvlsvjlkcmldcsmlcd'
 
 @app.route('/search4', methods=['POST'])
 def do_search():
+    @copy_current_request_context
+    def log_request(req, results: str) -> None:
+        with DataBaseUse(app.config['db_config']) as cursor:
+            time.sleep(15)
+            _SQL = """INSERT INTO log(phrase, letters, ip, browser_string, results) VALUES (%s,%s,%s,%s,%s)"""
+            agent = str(req.user_agent.browser).title()
+            cursor.execute(_SQL, (req.form['phrase'], req.form['letters'], req.remote_addr, agent, results))
+
     phrase = request.form['phrase']
     letters = request.form['letters']
     results = str(search4letters(phrase, letters))
     title = 'Results:'
     try:
-        log_request(request, results)
+        t = Thread(target=log_request, args=(request, results))
+        t.start()
     except Exception as ex:
         print(repr(ex))
     return render_template('results.html', the_phrase=phrase, the_title=title, the_results=results,

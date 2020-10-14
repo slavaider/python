@@ -6,6 +6,7 @@ from sqlalchemy.orm import sessionmaker
 if __name__ == '__main__':
     print(sqlalchemy.__version__)
     engine = sqlalchemy.create_engine('postgresql+psycopg2://postgres:admin@localhost:5432/test_database')
+
     with engine.connect() as connection:
         result = connection.execute(" SELECT * FROM book")
         for row in result:
@@ -22,7 +23,7 @@ if __name__ == '__main__':
         #     connection.execute(
         #         "INSERT INTO book(book_id, title, isbn, publisher_id, weight) VALUES (5,'title','isbn',1,50)")
 
-    # declarative_base
+    print('declarative_base')
     Base = declarative_base()
 
 

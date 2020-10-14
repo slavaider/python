@@ -26,7 +26,7 @@ class Game:
         self.game_status = GameStatus.NOT_STARTED
 
     def get_data(self):
-        with open(self.file_path, 'r+') as file:
+        with open(self.file_path, 'r+',encoding='utf-8') as file:
             for line in file:
                 temp = line.strip('\n')
                 questions, answers, explanation = temp.split(';')
