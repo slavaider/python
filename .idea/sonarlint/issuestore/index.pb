@@ -54,3 +54,19 @@ h
 8repeat_from_book/web_development/templates/view_log.html,2\5\25f006ea979995eb44ba10f4e40e51bc1e5d3a77
 e
 5repeat_from_book/web_development/templates/entry.html,a\a\aa6b4f4a97d3971db00924f5024bcc7454003c3f
+D
+files/json_tests.txt,9\5\95b10179b2dd8c106c96d849182ff9663738eec1
+C
+files/file_name.txt,1\8\18a76b83a51d829e54563778cc8ca2096986cbc1
+B
+files/original.csv,8\a\8ac9d09e12a3a2dde1c9f695b956093e77184fff
+O
+repeat_from_book/19_csv_test.py,4\8\48a52d2d59ac3be0022a95d70c8a5212b530d3dd
+^
+.repeat_from_book/20_generator_test_requests.py,8\7\8729a1ab36ce30aa285a1c94b39c9ea2b8c93870
+B
+files/buzzdata.csv,2\c\2ce5d780a3634f2cb3fa2dc2fc7eb933081def2c
+S
+#true_of_false/game_true_or_false.py,0\b\0b40abbcae58ee3a42672318bff3f8ba5a3ae60b
+M
+repeat_from_book/21_turtle.py,2\9\29e3331970f410e93273c2397c4b2b2bd57c6cac
