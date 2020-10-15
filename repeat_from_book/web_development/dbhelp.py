@@ -1,3 +1,5 @@
+import math
+
 import psycopg2
 
 
@@ -38,3 +40,66 @@ class DataBaseUse:
             raise SQLError(exc_val)
         elif exc_type:
             raise exc_type(exc_val)
+
+
+class Pagination:
+    items = []
+    second_index = 10
+    page = 1
+    page_size = 10
+
+    def __init__(self, items=None, page_size=10):
+        if items is None:
+            items = []
+        self.items = items
+
+    def get_visible_items(self):
+        return self.items[(self.page - 1) * self.page_size:self.second_index]
+
+    def prev_page(self):
+        if self.items != [] and self.page != 1:
+            self.page -= 1
+            self.second_index -= self.page_size
+        return self
+
+    def next_page(self):
+        if (self.second_index + self.page_size) > len(self.items):
+            return self.last_page()
+        if self.items != [] and self.second_index < len(self.items):
+            self.page += 1
+            self.second_index += self.page_size
+        return self
+
+    def first_page(self):
+        self.page = 1
+        self.second_index = self.page_size
+        return self
+
+    def last_page(self):
+        self.page = int(len(self.items) / self.page_size) + 1
+        self.second_index = len(self.items)
+        return self
+
+    def go_to_page(self, page):
+        if not self.items:
+            return self
+        elif page > int(len(self.items) / self.page_size):
+            return self.last_page()
+        elif page < 1:
+            return self.first_page()
+        else:
+            self.page = page
+            self.second_index = (page - 1) * self.page_size + self.page_size
+            return self
+
+    def get_current_page(self):
+        return self.page
+
+    def get_page_size(self):
+        return self.page_size
+
+    def get_items(self):
+        return self.items
+
+    def get_pagination_list_of_nums(self):
+        return list(range(1, math.ceil(len(self.items) / self.page_size) + 1))

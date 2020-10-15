@@ -50,10 +50,6 @@ d
 4repeat_from_book/web_development/templates/base.html,3\2\32a6eb099bec477443c2fc1b96d06fdf31838cd8
 K
 repeat_from_book/checker.py,1\7\1701575a66c1a2338109a1916eedbb32198af672
-h
-8repeat_from_book/web_development/templates/view_log.html,2\5\25f006ea979995eb44ba10f4e40e51bc1e5d3a77
-e
-5repeat_from_book/web_development/templates/entry.html,a\a\aa6b4f4a97d3971db00924f5024bcc7454003c3f
 D
 files/json_tests.txt,9\5\95b10179b2dd8c106c96d849182ff9663738eec1
 C

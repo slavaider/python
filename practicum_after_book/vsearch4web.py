@@ -1,7 +1,8 @@
+import time
+
 from flask import Flask, render_template, request, session, copy_current_request_context
 from repeat_from_book.checker import check_logged_in
-from repeat_from_book.web_development.dbhelp import DataBaseUse, MyConnectionError, CredentialError, SQLError, \
-    Pagination
+from repeat_from_book.web_development.dbhelp import DataBaseUse, MyConnectionError, CredentialError, SQLError
 from threading import Thread
 
 
@@ -22,6 +23,7 @@ def do_search():
     @copy_current_request_context
     def log_request(req, results: str) -> None:
         with DataBaseUse(app.config['db_config']) as cursor:
+            time.sleep(15)
             _SQL = """INSERT INTO log(phrase, letters, ip, browser_string, results) VALUES (%s,%s,%s,%s,%s)"""
             agent = str(req.user_agent.browser).title()
             cursor.execute(_SQL, (req.form['phrase'], req.form['letters'], req.remote_addr, agent, results))
@@ -57,7 +59,7 @@ def entry_page():
     return render_template('entry.html', the_title='Welcome!!!')
 
 
-@app.route('/view_log', methods=['GET', 'POST'])
+@app.route('/view_log')
 @check_logged_in
 def view_log():
     try:
@@ -66,22 +68,7 @@ def view_log():
             cursor.execute(_SQL)
             contents = cursor.fetchall()
         titles = ['ID', 'Time', 'Phrase', 'Letters', 'IP', 'User_agent', 'Results']
-        pagination_content = Pagination(contents)
-        nums = pagination_content.get_pagination_list_of_nums()
-        # delete session, get plan for next,prev pages :(
-        session['json_data'] = {k: int(v) for k, v in request.form.items() if isinstance(v, int)}
-        if 'page_number' not in session['json_data'].keys():
-            session['json_data']['page_number'] = 1
-
-        if 'prev_page' in session['json_data'].keys():
-            session['json_data']['page_number'] -= 1
-        elif 'next_page' in session['json_data'].keys():
-            session['json_data']['page_number'] += 1
-
-        pagination_content.go_to_page(session['json_data']['page_number'])
-        return render_template('view_log.html', the_title='View Log', row_titles=titles,
-                               the_data=pagination_content.get_visible_items(), nums=nums,
-                               tek=session['json_data']['page_number'])
+        return render_template('view_log.html', the_title='View Log', row_titles=titles, the_data=contents)
     except MyConnectionError as ex:
         print('Database switched on?', str(ex))
     except CredentialError as ex:
