@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block body %}
-<h2 style="text-align: center">{{the_title}} tek={{tek}}
+<h2 style="text-align: center">{{the_title}}
     <div class="ml-1">
         <a href="/">
             <input type="button" class="btn btn-success" value="На главную"/>
@@ -27,19 +27,23 @@
     {% endfor %}
     </tbody>
 </table>
-<form method="post">
+<form method="POST">
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
             <li class="page-item">
-                <input name="prev_page" class="page-link form-control" type="submit" value="&laquo;">
+                <input name="first_page" class="form-control" type="submit" value="&laquo;">
             </li>
             {% for num in nums %}
             <li class="page-item">
-                <input name="page_number" class="page-link form-control" type="submit" value="{{num}}">
+                {% if num == page_number %}
+                <input name="page_number" class="form-control" style="color:#de0a0a" type="submit" value="{{num}}">
+                {% else %}
+                <input name="page_number" class="form-control" type="submit" value="{{num}}">
+                {% endif %}
             </li>
             {% endfor %}
             <li class="page-item">
-                <input name="next_page" class="page-link form-control" type="submit" value="&raquo;">
+                <input name="last_page" class="form-control" type="submit" value="&raquo;">
             </li>
         </ul>
     </nav>

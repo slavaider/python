@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, session, copy_current_request_context
+from flask import Flask, render_template, request, session, copy_current_request_context, redirect
 from repeat_from_book.checker import check_logged_in
 from repeat_from_book.web_development.dbhelp import DataBaseUse, MyConnectionError, CredentialError, SQLError, \
     Pagination
@@ -59,7 +59,7 @@ def entry_page():
 
 @app.route('/view_log', methods=['GET', 'POST'])
 @check_logged_in
-def view_log():
+def view_log(page_number=1):
     try:
         with DataBaseUse(app.config['db_config'])  as cursor:
             _SQL = """SELECT id,ts,phrase,letters,ip,browser_string,results FROM log"""
@@ -68,20 +68,18 @@ def view_log():
         titles = ['ID', 'Time', 'Phrase', 'Letters', 'IP', 'User_agent', 'Results']
         pagination_content = Pagination(contents)
         nums = pagination_content.get_pagination_list_of_nums()
-        # delete session, get plan for next,prev pages :(
-        session['json_data'] = {k: int(v) for k, v in request.form.items() if isinstance(v, int)}
-        if 'page_number' not in session['json_data'].keys():
-            session['json_data']['page_number'] = 1
-
-        if 'prev_page' in session['json_data'].keys():
-            session['json_data']['page_number'] -= 1
-        elif 'next_page' in session['json_data'].keys():
-            session['json_data']['page_number'] += 1
-
-        pagination_content.go_to_page(session['json_data']['page_number'])
+        if 'page_number' in request.form.keys():
+            page_number = int(request.form['page_number'])
+            pagination_content.go_to_page(page_number)
+        elif 'first_page' in request.form.keys():
+            pagination_content.first_page()
+            page_number = pagination_content.get_current_page()
+        elif 'last_page' in request.form.keys():
+            pagination_content.last_page()
+            page_number = pagination_content.get_current_page()
         return render_template('view_log.html', the_title='View Log', row_titles=titles,
                                the_data=pagination_content.get_visible_items(), nums=nums,
-                               tek=session['json_data']['page_number'])
+                               page_number=page_number)
     except MyConnectionError as ex:
         print('Database switched on?', str(ex))
     except CredentialError as ex:

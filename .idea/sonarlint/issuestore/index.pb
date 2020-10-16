@@ -66,3 +66,21 @@ S
 #true_of_false/game_true_or_false.py,0\b\0b40abbcae58ee3a42672318bff3f8ba5a3ae60b
 M
 repeat_from_book/21_turtle.py,2\9\29e3331970f410e93273c2397c4b2b2bd57c6cac
+G
+src/46_my_pagination.py,2\e\2e5ec8415a6bc43e3f5eaa27d52c098aae7628f4
+K
+src/45_not_my_pagination.py,d\1\d1149214ba1c885723f8a6f062dfca309af9c2f1
+X
+(practicum_after_book/templates/base.html,3\1\31fa1302b95b20e58351240ca3588a28485c2d56
+N
+practicum_after_book/dbhelp.py,a\8\a8211103b3e2b3e92b1b0c7cd4d7ebbb1777c767
+Y
+)practicum_after_book/templates/entry.html,5\6\565965eb4edf8fec7cb5ef88a932a8da7d4fa1eb
+[
++practicum_after_book/templates/results.html,b\3\b3a1e889a0100c01e0a93f342366d7a598d8572d
+V
+&practicum_after_book/static/styles.css,8\a\8a3537bc2f88181f1b9cc2324bae49d7dab36fe8
+\
+,practicum_after_book/templates/view_log.html,b\3\b33e8249366dead7e29de4bb67dc1e24292a8f3e
+S
+#practicum_after_book/vsearch4web.py,d\9\d9b6f84d19c0a0ea09b493f537a294854307cdc9

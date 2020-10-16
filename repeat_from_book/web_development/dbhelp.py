@@ -43,32 +43,32 @@ class DataBaseUse:
 
 
 class Pagination:
-    items = []
-    second_index = 10
-    page = 1
-    page_size = 10
 
     def __init__(self, items=None, page_size=10):
         if items is None:
             items = []
         self.items = items
+        self.second_index = 10
+        self.page = 1
+        self.page_size = page_size
 
     def get_visible_items(self):
         return self.items[(self.page - 1) * self.page_size:self.second_index]
 
-    def prev_page(self):
-        if self.items != [] and self.page != 1:
-            self.page -= 1
-            self.second_index -= self.page_size
-        return self
-
-    def next_page(self):
-        if (self.second_index + self.page_size) > len(self.items):
-            return self.last_page()
-        if self.items != [] and self.second_index < len(self.items):
-            self.page += 1
-            self.second_index += self.page_size
-        return self
+    # Undone
+    # def prev_page(self):
+    #     if self.items != [] and self.page != 1:
+    #         self.page -= 1
+    #         self.second_index -= self.page_size
+    #     return self
+    #
+    # def next_page(self):
+    #     if (self.second_index + self.page_size) > len(self.items):
+    #         return self.last_page()
+    #     if self.items != [] and self.second_index < len(self.items):
+    #         self.page += 1
+    #         self.second_index += self.page_size
+    #     return self
 
     def first_page(self):
         self.page = 1
