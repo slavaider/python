@@ -84,3 +84,13 @@ V
 ,practicum_after_book/templates/view_log.html,b\3\b33e8249366dead7e29de4bb67dc1e24292a8f3e
 S
 #practicum_after_book/vsearch4web.py,d\9\d9b6f84d19c0a0ea09b493f537a294854307cdc9
+h
+8repeat_from_book/web_development/templates/view_log.html,2\5\25f006ea979995eb44ba10f4e40e51bc1e5d3a77
+K
+tkinter/01_begin_tkinter.py,7\2\72e45178c752c4fb122f71d5e9e4feeffa5f37e0
+H
+tkinter/03_eval_tests.py,9\a\9a3c2315668dcfbd48eebea46749fdac4ab83a29
+D
+tkinter/04_frames.py,e\9\e9f986a8252bb55efc4415da25dfdca68e5c24f2
+K
+tkinter/02_text_redactor.py,1\9\194cdf2eb617660d65b09187701b8beff5910a38
