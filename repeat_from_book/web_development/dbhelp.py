@@ -48,7 +48,7 @@ class Pagination:
         if items is None:
             items = []
         self.items = items
-        self.second_index = 10
+        self.second_index = page_size
         self.page = 1
         self.page_size = page_size
 

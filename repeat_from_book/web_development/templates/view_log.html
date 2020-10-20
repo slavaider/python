@@ -31,19 +31,25 @@
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
             <li class="page-item">
-                <input name="first_page" class="form-control" type="submit" value="&laquo;">
+                <input name="first_page" class="form-control" type="submit" value="<<">
+            </li>
+            <li class="page-item">
+                <input name="prev:{{page_number}}" class="form-control" type="submit" value="<">
             </li>
             {% for num in nums %}
             <li class="page-item">
                 {% if num == page_number %}
-                <input name="page_number" class="form-control" style="color:#de0a0a" type="submit" value="{{num}}">
+                <input name="page_number" class="form-control" style="color:#63cd12" type="submit" value="{{num}}">
                 {% else %}
                 <input name="page_number" class="form-control" type="submit" value="{{num}}">
                 {% endif %}
             </li>
             {% endfor %}
             <li class="page-item">
-                <input name="last_page" class="form-control" type="submit" value="&raquo;">
+                <input name="next:{{page_number}}" class="form-control" type="submit" value=">">
+            </li>
+            <li class="page-item">
+                <input name="last_page" class="form-control" type="submit" value=">>">
             </li>
         </ul>
     </nav>

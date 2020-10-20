@@ -66,8 +66,9 @@ def view_log(page_number=1):
             cursor.execute(_SQL)
             contents = cursor.fetchall()
         titles = ['ID', 'Time', 'Phrase', 'Letters', 'IP', 'User_agent', 'Results']
-        pagination_content = Pagination(contents)
+        pagination_content = Pagination(contents, 5)
         nums = pagination_content.get_pagination_list_of_nums()
+        # S-s- spaghetti code
         if 'page_number' in request.form.keys():
             page_number = int(request.form['page_number'])
             pagination_content.go_to_page(page_number)
@@ -76,6 +77,12 @@ def view_log(page_number=1):
             page_number = pagination_content.get_current_page()
         elif 'last_page' in request.form.keys():
             pagination_content.last_page()
+            page_number = pagination_content.get_current_page()
+        elif (list(request.form.keys()) != []) and ('next' in list(request.form.keys())[-1].split(':')):
+            pagination_content.go_to_page(int(list(request.form.keys())[-1].split(':')[-1]) + 1)
+            page_number = pagination_content.get_current_page()
+        elif (list(request.form.keys()) != []) and ('prev' in list(request.form.keys())[-1].split(':')):
+            pagination_content.go_to_page(int(list(request.form.keys())[-1].split(':')[-1]) - 1)
             page_number = pagination_content.get_current_page()
         return render_template('view_log.html', the_title='View Log', row_titles=titles,
                                the_data=pagination_content.get_visible_items(), nums=nums,
