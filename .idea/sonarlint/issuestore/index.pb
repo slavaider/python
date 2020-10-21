@@ -152,3 +152,17 @@ B
 ,tkinter/pracrical_work/practical_work_7_2.py,3\6\368c654444114f41ee3f09d8cd46d041e327b642
 F
 tkinter/24_canvas_2.py,6\b\6be88f9518519575394648a416e8ec7528e43f68
+Z
+*tkinter/pracrical_work/practical_work_8.py,7\a\7a0e13370b9e0355df6d3c61a0be135bc1b08f7e
+h
+8repeat_from_book/web_development/templates/view_log.html,2\5\25f006ea979995eb44ba10f4e40e51bc1e5d3a77
+J
+src/07_game_cross_nulls.py,1\8\182a428c6f95a7a1fe522886e70144850fc8ad67
+I
+tkinter/26_canvas_text.py,b\3\b34ac77d997021d0b9211301adba71da2e5a8149
+F
+tkinter/25_canvas_3.py,3\c\3cadc0dcb0415ee61b24822760f9341bef0ae281
+K
+tkinter_cross_nulls/game.py,6\0\60580e6244530a3285ec61bd27dae2e4a38bbad5
+K
+tkinter_cross_nulls/test.py,1\8\18b211a6f7b733f7c9183f41072d474e0c972007
