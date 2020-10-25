@@ -23,20 +23,25 @@
         </tr>
         </tbody>
     </table>
-    <p>When you'r ready click this button</p>
     <p><input type="submit" class="btn btn-success" value="Do IT!"></p>
     <a href="/view_log">
         <input type="button" class="btn btn-primary" value="View LOG"/>
     </a>
     <br>
     <div class="mt-1">
-        <a href="/login">
-            <input type="button" class="btn btn-success" value="LOGIN"/>
-        </a>
+        ?: {{session.get('logged_in')}} <br>
+        {% if 'logged_in' in session %}
         <a href="/logout">
-            <input type="button" class="btn btn-danger" value="LOGOUT"/>
+            <input type="button" class="btn btn-danger" value="Logout"/>
         </a>
+        {% else %}
+        <a href="/login">
+            <input type="button" class="btn btn-success" value="Login"/>
+        </a>
+        <a href="/registration">
+            <input type="button" class="btn btn-success" value="Registration"/>
+        </a>
+        {% endif %}
     </div>
-
 </form>
 {% endblock %}

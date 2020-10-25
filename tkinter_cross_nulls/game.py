@@ -3,6 +3,7 @@ import random
 from tkinter import Tk, Canvas, Label
 import tkinter.messagebox as messagebox
 
+
 def player_paint(event, current_sign, board):
     if current_sign:
         tk_image = ImageTk.PhotoImage(file='../files/cross.png')

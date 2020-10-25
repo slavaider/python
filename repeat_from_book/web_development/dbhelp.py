@@ -76,7 +76,10 @@ class Pagination:
         return self
 
     def last_page(self):
-        self.page = int(len(self.items) / self.page_size) + 1
+        if int(len(self.items) / self.page_size) == len(self.items):
+            self.page = int(len(self.items) / self.page_size)
+        else:
+            self.page = int(len(self.items) / self.page_size) + 1
         self.second_index = len(self.items)
         return self
 

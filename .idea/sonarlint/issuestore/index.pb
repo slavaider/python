@@ -46,8 +46,6 @@ T
 $repeat_from_book/17_simple_webapp.py,6\2\62424528e0b72ae6cba5cdb2ccdc89a09445a149
 Q
 !repeat_from_book/18_decorators.py,4\a\4ad078e1cb43709585bd1eb812f67420994a29a6
-d
-4repeat_from_book/web_development/templates/base.html,3\2\32a6eb099bec477443c2fc1b96d06fdf31838cd8
 K
 repeat_from_book/checker.py,1\7\1701575a66c1a2338109a1916eedbb32198af672
 D
@@ -154,8 +152,6 @@ F
 tkinter/24_canvas_2.py,6\b\6be88f9518519575394648a416e8ec7528e43f68
 Z
 *tkinter/pracrical_work/practical_work_8.py,7\a\7a0e13370b9e0355df6d3c61a0be135bc1b08f7e
-h
-8repeat_from_book/web_development/templates/view_log.html,2\5\25f006ea979995eb44ba10f4e40e51bc1e5d3a77
 J
 src/07_game_cross_nulls.py,1\8\182a428c6f95a7a1fe522886e70144850fc8ad67
 I
@@ -164,5 +160,9 @@ F
 tkinter/25_canvas_3.py,3\c\3cadc0dcb0415ee61b24822760f9341bef0ae281
 K
 tkinter_cross_nulls/game.py,6\0\60580e6244530a3285ec61bd27dae2e4a38bbad5
-K
-tkinter_cross_nulls/test.py,1\8\18b211a6f7b733f7c9183f41072d474e0c972007
+D
+tests/create_pngs.py,8\c\8c5b046a42d822473df6131f54c95d0e618a096f
+>
+tests/test1.py,0\5\055f198a6e49139b8e9e38a1461254470d25be2e
+B
+src/03_beverage.py,c\2\c2712f80b633fc63df52beb94990c83243a1af51
