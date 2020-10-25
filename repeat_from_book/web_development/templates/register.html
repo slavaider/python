@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block body %}
+{% from "_formhelpers.html" import render_field %}
+<div class="container col-3" style="border: 1px solid black;padding: 20px">
+    <form method=post>
+        <div class="d-flex justify-content-end">
+            <a href="/">
+                <input type="button" class="btn btn-sm btn-danger " value="&times"/>
+            </a>
+        </div>
+        <dl>
+            {{ render_field(form.username) }}
+            {{ render_field(form.email) }}
+            {{ render_field(form.password) }}
+            {{ render_field(form.confirm) }}
+        </dl>
+        <button class="btn btn-success" type="submit">Register</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container col-3" style="border: 1px solid black;padding: 20px">
+    <form action="/login" method="post">
+        <div class="d-flex justify-content-end">
+            <a href="/">
+                <input type="button" class="btn btn-sm btn-danger " value="&times"/>
+            </a>
+        </div>
+        <div class="form-group">
+            <label for="id_name">Имя пользователя или почта</label>
+            <input type="text" class="form-control" name="username" id="id_name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="id_password">Password</label>
+            <input type="password" class="form-control" name="password" id="id_password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Войти</button>
+        {% if try_login %}
+        <small style="color: red; ">Такого пользователя нет</small>
+        {% endif %}
+    </form>
+</div>
+{% endblock %}
