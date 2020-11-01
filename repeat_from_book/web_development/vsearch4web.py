@@ -7,8 +7,8 @@ from repeat_from_book.web_development.dbhelp import DataBaseUse, MyConnectionErr
     Pagination
 # Thread for insert result log in database
 from threading import Thread
-
-from wtforms import Form, BooleanField, StringField, PasswordField, validators
+# Forms validation
+from wtforms import Form, StringField, PasswordField, validators
 
 
 def search4letters(phrase: str, letters: str = 'aeiou') -> set:
@@ -32,7 +32,6 @@ def do_search():
             _SQL = """INSERT INTO log(phrase, letters, ip, browser_string, results) VALUES (%s,%s,%s,%s,%s)"""
             agent = str(req.user_agent.browser).title()
             cursor.execute(_SQL, (req.form['phrase'], req.form['letters'], req.remote_addr, agent, log_results))
-
     phrase = request.form['phrase']
     letters = request.form['letters']
     results = str(search4letters(phrase, letters))

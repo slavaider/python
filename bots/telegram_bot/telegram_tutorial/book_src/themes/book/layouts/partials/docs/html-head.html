@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="{{ default .Summary .Description }}" name="description">
+<meta content="#FFFFFF" name="theme-color">
+
+{{- template "_internal/opengraph.html" . -}}
+
+<title>{{ partial "docs/title" . }} | {{ .Site.Title -}}</title>
+
+{{- $manifest := resources.Get "manifest.json" | resources.ExecuteAsTemplate "manifest.json" . }}
+<link href="{{ $manifest.RelPermalink }}" rel="manifest">
+<link favicon.png href="{{ " rel="icon"" | relURL }}" type="image/x-icon">
+
+{{- range .Translations }}
+<link docs href="{{ .Permalink }}" hreflang="{{ .Language.Lang }}" rel="alternate" title="{{ partial "/title" . }}">
+{{ end -}}
+
+<!-- Theme stylesheet, you can customize scss by creating `assets/custom.scss` in your website -->
+{{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" rel="stylesheet">
+
+{{- if default true .Site.Params.BookSearch }}
+{{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
+{{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
+<script defer integrity="{{ $searchJS.Data.Integrity }}" src="{{ $searchJS.RelPermalink }}"></script>
+{{ end -}}
+
+{{- if .Site.Params.BookServiceWorker }}
+{{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
+<script defer integrity="{{ $swJS.Data.Integrity }}" src="{{ $swJS.RelPermalink }}"></script>
+{{ end -}}
+
+{{- template "_internal/google_analytics_async.html" . -}}
+
+<!-- RSS -->
+{{- with .OutputFormats.Get "rss" -}}
+{{ printf `
+<link href="%s" rel="%s" title="%s" type="%s"/>` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
+{{ "<!--" | safeHTML }}
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+{{ "-->" | safeHTML }}
