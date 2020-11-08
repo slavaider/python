@@ -6,7 +6,7 @@ if __name__ == '__main__':
     # for i in range(rows):
     #     print("*" * (i+1))
 
-    for i in range(rows := int(input("rows = "))): #present
+    for i in range(rows := int(input("rows = "))):  # present
         print("*" * (i + 1))
 
     test = None

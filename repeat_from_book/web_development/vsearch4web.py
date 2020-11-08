@@ -1,14 +1,16 @@
 # Flask
+# Thread for insert result log in database
+from threading import Thread
+
 from flask import Flask, render_template, request, session, copy_current_request_context, redirect
+# Forms validation
+from wtforms import Form, StringField, PasswordField, validators
+
 # Checker for login,out
 from repeat_from_book.checker import check_logged_in
 # DataBase postgresql psycopg2.adapter helper
 from repeat_from_book.web_development.dbhelp import DataBaseUse, MyConnectionError, CredentialError, SQLError, \
     Pagination
-# Thread for insert result log in database
-from threading import Thread
-# Forms validation
-from wtforms import Form, StringField, PasswordField, validators
 
 
 def search4letters(phrase: str, letters: str = 'aeiou') -> set:
@@ -32,6 +34,7 @@ def do_search():
             _SQL = """INSERT INTO log(phrase, letters, ip, browser_string, results) VALUES (%s,%s,%s,%s,%s)"""
             agent = str(req.user_agent.browser).title()
             cursor.execute(_SQL, (req.form['phrase'], req.form['letters'], req.remote_addr, agent, log_results))
+
     phrase = request.form['phrase']
     letters = request.form['letters']
     results = str(search4letters(phrase, letters))
@@ -95,16 +98,26 @@ def entry_page():
     return render_template('entry.html', the_title='Flask app')
 
 
+sort = False
+
+
 @app.route('/view_log', methods=['GET', 'POST'])
 @check_logged_in
-def view_log(page_number=1):
+def view_log(page_number=1 ):
     try:
+        global sort
+        rows = 5
         with DataBaseUse(app.config['db_config'])  as cursor:
             _SQL = """SELECT id,ts,phrase,letters,ip,browser_string,results FROM log"""
             cursor.execute(_SQL)
             contents = cursor.fetchall()
         titles = ['ID', 'Time', 'Phrase', 'Letters', 'IP', 'User_agent', 'Results']
-        pagination_content = Pagination(contents, 5)
+        if 'sort_down' in request.form.keys():
+            sort = False
+        elif 'sort_up' in request.form.keys():
+            sort = True
+        sorted_list = sorted(contents, reverse=sort)
+        pagination_content = Pagination(sorted_list, rows)
         nums = pagination_content.get_pagination_list_of_nums()
         # S-s- spaghetti code
         if 'page_number' in request.form.keys():
@@ -122,8 +135,13 @@ def view_log(page_number=1):
         elif (list(request.form.keys()) != []) and ('prev' in list(request.form.keys())[-1].split(':')):
             pagination_content.go_to_page(int(list(request.form.keys())[-1].split(':')[-1]) - 1)
             page_number = pagination_content.get_current_page()
-        return render_template('view_log.html', the_title='View Log', row_titles=titles,
-                               the_data=pagination_content.get_visible_items(), nums=nums,
+        result = pagination_content.get_visible_items()
+        return render_template('view_log.html',
+                               the_title='View Log',
+                               row_titles=titles,
+                               the_data=result,
+                               nums=nums,
+                               sort=sort,
                                page_number=page_number)
     except MyConnectionError as ex:
         print('Database switched on?', str(ex))

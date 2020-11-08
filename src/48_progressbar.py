@@ -1,5 +1,6 @@
-from progressbar import ProgressBar
 import time
+
+from progressbar import ProgressBar
 
 if __name__ == '__main__':
     # progressbar module test

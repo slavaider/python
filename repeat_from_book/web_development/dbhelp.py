@@ -76,17 +76,15 @@ class Pagination:
         return self
 
     def last_page(self):
-        if int(len(self.items) / self.page_size) == len(self.items):
-            self.page = int(len(self.items) / self.page_size)
-        else:
-            self.page = int(len(self.items) / self.page_size) + 1
+        self.page = math.ceil(len(self.items) / self.page_size)
         self.second_index = len(self.items)
         return self
 
     def go_to_page(self, page):
         if not self.items:
             return self
-        elif page > int(len(self.items) / self.page_size):
+        elif page > math.ceil(len(self.items) / self.page_size):
+            print(page)
             return self.last_page()
         elif page < 1:
             return self.first_page()

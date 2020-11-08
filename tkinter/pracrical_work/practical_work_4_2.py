@@ -16,5 +16,5 @@ if __name__ == '__main__':
     entry1.pack()
     entry2.pack()
     frame.pack()
-    root.bind('<space>', change_size)
+    root.bind('<Return>', change_size)
     root.mainloop()

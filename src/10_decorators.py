@@ -1,5 +1,5 @@
-from functools import wraps
 import time
+from functools import wraps
 from timeit import default_timer as timer
 
 

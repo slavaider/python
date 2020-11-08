@@ -5,6 +5,18 @@
         <a href="/">
             <input type="button" class="btn btn-success" value="На главную"/>
         </a>
+        <h1>Сортировка по времени</h1>
+        <form method="POST">
+            <div class="btn-group" role="group">
+                {% if sort%}
+                <input name="sort_down" type="submit" class="btn btn-success" value="↑">
+                <input name="sort_up" type="submit" class="btn btn-success active" value="↓">
+                {% else %}
+                <input name="sort_down" type="submit" class="btn btn-success active" value="↑">
+                <input name="sort_up" type="submit" class="btn btn-success" value="↓">
+                {%endif%}
+            </div>
+        </form>
     </div>
 </h2>
 

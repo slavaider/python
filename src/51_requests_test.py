@@ -1,7 +1,7 @@
 import requests
 from requests import HTTPError
-from requests.exceptions import Timeout
 from requests.adapters import HTTPAdapter
+from requests.exceptions import Timeout
 
 if __name__ == '__main__':
     try:

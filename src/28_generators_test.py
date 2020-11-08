@@ -1,5 +1,5 @@
-from random import randint
 import itertools
+from random import randint
 
 
 def randoms(_min, _max, n):

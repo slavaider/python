@@ -135,7 +135,7 @@ class Game:
 
 
 if __name__ == '__main__':
-    game = Game(100)
+    game = Game(5)
     game.generate_word()
     game.show_game_status()
     while game.game_status != GameStatus.WON and game.game_status != GameStatus.LOST:
@@ -143,7 +143,7 @@ if __name__ == '__main__':
         try:
             num = int(choice)
             print('Введите букву..., а не цифру')
-        except:
+        except ValueError:
             if 'а'.encode('utf-8') <= choice.encode('utf-8') <= 'я'.encode('utf-8'):
                 game.give_letter(choice.lower())
             else:
