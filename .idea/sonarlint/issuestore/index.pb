@@ -724,3 +724,15 @@ i
 9bots/telegram_bot/telegram_tutorial/lesson_11/dbworker.py,1\7\1748cce19e436682b8aade651f19b1898ae74c4c
 N
 bots/nltk_learning/chatbot.txt,b\d\bdd5626071cad5e33d2fa5e481d849e82a671ff1
+I
+src/28_generators_test.py,6\d\6d801b36330c1b1462f5cd53044c52586ddb5512
+F
+src/38_ordered_dict.py,a\f\af67a4515a074c99c73993ff24cf11874fe3d943
+K
+src/39_python3_01_walrus.py,8\0\80c4d7724205ea056e7e7c9b814c5343c2d9b052
+E
+src/48_progressbar.py,9\9\99347a7654de1a4388e95b2b17203a08feb4b42d
+G
+src/51_requests_test.py,e\b\eb666440e9317472d7b86803267e4eda9db84c42
+F
+handman/python_game.py,a\4\a407ec82a15183b63819196d236968bb083c4958
