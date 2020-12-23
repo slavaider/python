@@ -6,3 +6,4 @@ if __name__ == '__main__':
     list_items = [item1, item2, item3]
     for i in list_items:
         print(i)
+#init

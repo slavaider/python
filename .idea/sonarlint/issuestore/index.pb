@@ -842,3 +842,65 @@ C
 files/test_file.txt,2\5\2584fb9b1eed68433420bf09c6fc8ca62f965ba8
 Q
 !tasks/intermediate/17_rand_num.py,c\7\c7e8a27ab40a624dbe5b7c651623a4d20ac4ec85
+M
+tasks/intermediate/18_math.py,0\b\0b5a98e5f5bdcb2b8153d8e0052cbaf3ac395b62
+T
+$tasks/intermediate/19_simple_nums.py,3\5\35d5d773fe2e2e72911e7b8c7b639e9c608d6cd3
+V
+&tasks/intermediate/20_count_of_nums.py,b\e\befc9219678ebc9ba865aa72626645f81a49b6fd
+P
+ tasks/intermediate/21_sirzcuz.py,1\f\1f7c8af6221c9a4529280e29fdb96e4e5eb07358
+Z
+*tasks/intermediate/22_sum_nums_of_array.py,8\2\82776864795aaa4b5cfcaa7d3b03428f6bd99b99
+W
+'tasks/intermediate/23_min_max_arrays.py,5\9\59dd06eff22099e1edb5a02a3be0f0614d7b4344
+O
+tasks/intermediate/24_insert.py,4\8\4800cbf42390338b5f47ceb45d141f42f8d7bbc3
+N
+tasks/intermediate/25_evens.py,8\e\8e0a807a99140bbbc35f3d36b0c3acf52395ae0a
+P
+ tasks/intermediate/26_reverse.py,2\f\2f093ac7a3a952fad772a7d4b8f2c4c7e6771072
+O
+tasks/intermediate/27_unique.py,0\4\04573ee98df5efef7d91f49998cb9b1e40627c70
+[
++tasks/intermediate/28_change_pos_min_max.py,c\5\c53b27fddb2f13330065da0ca152bed556ab6a0d
+T
+$tasks/intermediate/29_popular_num.py,0\0\000529568b2bc70fc710fdf0810229837280f2a1
+S
+#tasks/intermediate/30_max_neg_el.py,3\8\3805f3f6046d1f846cfff632bf8c47b2ddae8f61
+W
+'tasks/intermediate/31_sum_el_min_max.py,1\a\1a0dbc121418bbbed76ac46e928c7edcdfe6f9d9
+O
+tasks/intermediate/32_sum_of.py,b\3\b3cf24da4d38417ad69f743ba25db5de721d9d4d
+M
+tasks/intermediate/33_rect.py,a\d\ade2ed1557077703a0281031d507d0c91d79a387
+M
+tasks/intermediate/34_diag.py,b\d\bd48bb63edce744e9e59a207c351062676c3d795
+U
+%tasks/intermediate/35_absolute_num.py,b\f\bf82826a809419d8cc687374f6958c01eaec2997
+O
+tasks/intermediate/36_arrays.py,8\5\85f2d24200f5bccc7b986dd38f038d2f66787fb5
+V
+&tasks/intermediate/37_sum_after_neg.py,b\0\b005a13bb15d52c0374b536afae0a211df375181
+Q
+!tasks/intermediate/38_two_mins.py,c\4\c4946d4843d6e788cae7021e7252f1c80b00d271
+O
+tasks/intermediate/39_matrix.py,7\5\758a312ac79037a858e6239936b57d7cd8190fc5
+N
+tasks/intermediate/40_words.py,7\3\73aa8889bd85134521145f61cb767377a6406c94
+T
+$tasks/intermediate/41_max_len_str.py,a\2\a2f56d8d207510a12f1c33320eeca69c1c5a59a5
+S
+#tasks/intermediate/42_new_substr.py,c\5\c5b177bb8c06507f2d87ce3d1f9cc2ab8770a3d4
+S
+#tasks/intermediate/43_del_repeat.py,a\5\a5d8d452d18ad51f38505b9e7788bf0b54c2eef2
+P
+ tasks/intermediate/44_str_pal.py,7\6\7617148521305430285e5722bf7f3385689b74ed
+N
+tasks/intermediate/45_index.py,b\f\bf32fade6a4d4c9f2015e6d019bec679aa705a09
+N
+tasks/intermediate/46_dates.py,9\c\9c9faaa169523cb632f06683cbe87b2082d90c23
+Q
+!tasks/intermediate/47_students.py,6\1\61368e357cfbacd8b050d571bb6c60a919c398bf
+R
+"tasks/intermediate/48_shop_list.py,2\b\2b6513e7eee0e1da1182f4541a68d4b36cf333c7
