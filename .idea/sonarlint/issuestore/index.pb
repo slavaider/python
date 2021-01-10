@@ -912,3 +912,301 @@ wMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 6 - Polyn
 ™Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/R/categorical_data.R,7\6\76eb04703bd507b1d54011c2e2361d704ebd2cc2
 Ô
 æMachine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_template.ipynb,6\4\64af334eaaf4c92455a792f62b94a6f45072bdeb
+´
+{Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 5 - Multiple Linear Regression/Python/50_Startups.csv,6\8\6838291c5fd4f7860cdeb0a6000557d872772c8e
+¶
+vMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 5 - Multiple Linear Regression/R/50_Startups.csv,e\7\e7faed6f5faf18f85824e6edd4b02a06d8c5513b
+ƒ
+ìMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/Python/Ads_CTR_Optimisation.csv,e\2\e2b1a48c0779d1aa0f85d6b7155ae7627aea1f71
+ø
+éMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/R/Ads_CTR_Optimisation.csv,8\9\8936417af14d20cb114e7c119bee600722cf5783
+π
+àMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/Python/Ads_CTR_Optimisation.csv,f\4\f4d30d5768d69ef5fe405ab4b83030c9191f1054
+¥
+ÉMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/R/Ads_CTR_Optimisation.csv,a\2\a27bb45156562fdc78ac2e9799b6100514e8099e
+¶
+vMachine Learning A-Z (Codes and Datasets)/Part 8 - Deep Learning/Section 39 - Artificial Neural Networks (ANN)/R/ann.R,7\8\78441307fe448c87cc275b24c9338f6075915b81
+¶
+vMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 28 - Apriori/Python/apriori.ipynb,1\a\1a94a56159e77f340d2ca4f16dab9c8f55cbccd3
+ù
+mMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 28 - Apriori/R/apriori.R,8\f\8fce7950fe66c1bca748fb2ee458b1672516d2b6
+∆
+ïMachine Learning A-Z (Codes and Datasets)/Part 8 - Deep Learning/Section 39 - Artificial Neural Networks (ANN)/Python/artificial_neural_network.ipynb,d\5\d50f4ef36229920fee08187fbaf346e12bb87808
+√
+íMachine Learning A-Z (Codes and Datasets)/Part 8 - Deep Learning/Section 39 - Artificial Neural Networks (ANN)/Python/artificial_neural_network.py,b\3\b3e0725226e5f5b97b375b8bb79eb56aff6dcec8
+∫
+âMachine Learning A-Z (Codes and Datasets)/Part 8 - Deep Learning/Section 39 - Artificial Neural Networks (ANN)/Python/Churn_Modelling.csv,0\c\0cd3c2e31531d733655dc895cb4d0b7102d3212e
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 8 - Deep Learning/Section 39 - Artificial Neural Networks (ANN)/R/Churn_Modelling.csv,5\3\53240909439a365fb83ec81ba04475fbe11c8ad4
+©
+yMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 49 - XGBoost/R/Churn_Modelling.csv,9\a\9a28901cfe39669c8fbbe1ae6878c7f6d68041d5
+∂
+ÖMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/R/classification_template.R,f\f\ffcd36944bac576b54a1c9d154eb128e5dec4582
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/R/classification_template.R,0\9\09769e34dce9a2fd13b76da66bf2b42c024bb17a
+•
+uMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 17 - Kernel SVM/R/classification_template.R,1\7\17b0129c73b380ca6aed2e44da126b4d991b2b85
+¶
+vMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 18 - Naive Bayes/R/classification_template.R,5\0\50ee11ad4fde42dfd9b21f4f2277d7f9ab39bec6
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 19 - Decision Tree Classification/R/classification_template.R,e\1\e18388141f93903711ae4b270a4cf11532029d03
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 20 - Random Forest Classification/R/classification_template.R,9\e\9ec9351ae1f0b968cc9c55c63b26b94d257dcb82
+Ã
+õMachine Learning A-Z (Codes and Datasets)/Part 8 - Deep Learning/Section 40 - Convolutional Neural Networks (CNN)/Python/convolutional_neural_network.ipynb,3\4\34fff56ceed1b3bbbc59fb6ce30ee4a1f45aa306
+…
+òMachine Learning A-Z (Codes and Datasets)/Part 8 - Deep Learning/Section 40 - Convolutional Neural Networks (CNN)/Python/convolutional_neural_network.py,a\4\a48b7cd3b290da97d453628388a5df4ee0f1f9dd
+÷
+•Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/Data.csv,2\e\2ed80d593e3ba528bf80dd1bc25cbb25731d561d
+—
+†Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/R/Data.csv,0\e\0ef481a81ce6fba59835afd81dc39f078e831a85
+£
+sMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 49 - XGBoost/Python/Data.csv,5\4\5460dc453977cde250caed772481149cf2b15023
+Ê
+µMachine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/R/data_preprocessing_template.R,d\7\d76cfc875cf2ba77be8715fd12938f5189dbc1c6
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 5 - Multiple Linear Regression/R/data_preprocessing_template.R,8\8\88a721e2bb5eb9d217b98a2d8d13ce8441bf7dde
+∫
+âMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 7 - Support Vector Regression (SVR)/R/data_preprocessing_template.R,9\2\9287a533da4a61e17cf86d6e981254d4f0794ddf
+≠
+}Machine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 24 - K-Means Clustering/R/data_preprocessing_template.R,c\8\c8c5286fc1bcae15fdbaf05400b3f5f180b33661
+≥
+ÇMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 25 - Hierarchical Clustering/R/data_preprocessing_template.R,2\6\264205d1641cb9e6fd6548f7d4fa7db8a590541e
+Ï
+ªMachine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_tools.ipynb,9\8\9837d04a7f9911b1be39802b51a064fa9b275cb7
+∆
+ïMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 19 - Decision Tree Classification/Python/decision_tree_classification.ipynb,4\1\417a8591c618ba811385ca92d8122d7030c39366
+√
+íMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 19 - Decision Tree Classification/Python/decision_tree_classification.py,7\c\7c451dae73acf55a4c4d40a1a0c82732b97be146
+Ω
+åMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 19 - Decision Tree Classification/R/decision_tree_classification.R,9\3\93a20e8bfb85718123723711c8607c32726b66cc
+π
+àMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 8 - Decision Tree Regression/Python/decision_tree_regression.ipynb,0\b\0b8cc02370484871f16397d08d904a0955bba288
+∂
+ÖMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 8 - Decision Tree Regression/Python/decision_tree_regression.py,7\0\70881aaf67337a1c9a759b84285090983d75930d
+Ø
+Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 8 - Decision Tree Regression/R/decision_tree_regression.R,9\c\9cd534a717589463fce8ede9df8eab974c30b6ab
+¢
+rMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 29 - Eclat/Python/eclat.ipynb,3\9\395b5f16ea684b9b7da95abde4a3690beecf1599
+ô
+iMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 29 - Eclat/R/eclat.R,6\9\69f9306b38536c8c713385fd66886a00f40e0fb5
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 48 - Model Selection/Python/grid_search.ipynb,6\9\69a078cbd69238be1e02dea08d75775ad8deb62b
+≤
+ÅMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 48 - Model Selection/Python/grid_search.py,9\0\909f4f7247ee5e21c232c7b36b0b2992ba5876ec
+´
+{Machine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 48 - Model Selection/R/grid_search.R,7\e\7e6d2eb7b1f1eca355c0479820ef786e985d376a
+ô
+iMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 25 - Hierarchical Clustering/R/hc.R,f\d\fd86411f5d46e517ec0a5935ab9224176697beae
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 25 - Hierarchical Clustering/Python/hierarchical_clustering.ipynb,e\a\ea429257ce4e418dacf95d41d43da14c8f5cc933
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 25 - Hierarchical Clustering/Python/hierarchical_clustering.py,5\7\57521e0b69e850994ae6e00d0257c578cf04cb02
+¡
+êMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 48 - Model Selection/Python/k_fold_cross_validation.ipynb,4\d\4dfd0968e0fb49427bddae351944bf3ac3e7db4a
+æ
+çMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 48 - Model Selection/Python/k_fold_cross_validation.py,0\b\0b5db4beebfe994bc7f3c33235adbffc42b7d25c
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 48 - Model Selection/R/k_fold_cross_validation.R,d\b\db792ce8bfa9166c4458a36ecd80b391d8a7f0ca
+≠
+}Machine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 24 - K-Means Clustering/Python/k_means_clustering.ipynb,6\2\62b41681772d4ad40248a41167fd5aedc280c148
+™
+zMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 24 - K-Means Clustering/Python/k_means_clustering.py,9\d\9d28f656fbf55a5d7ff9d25985ca002789d8edc7
+§
+tMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 24 - K-Means Clustering/R/k_means_clustering.R,0\f\0f24fe1a3be4d27fa13b26522cbaf850621e39d7
+ª
+äMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/Python/k_nearest_neighbors.ipynb,b\3\b37d7fe7a245ef1283fb40381b59bb1126ca98b7
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/Python/k_nearest_neighbors.py,6\1\61f137275027924982725830469bdb5dd299bafe
+´
+{Machine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 45 - Kernel PCA/Python/kernel_pca.ipynb,2\5\2507dc728679fd6d739e021fe6ea0e33c93cbe08
+®
+xMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 45 - Kernel PCA/Python/kernel_pca.py,1\e\1e938583bac42e75c9645c9a84805de5c58478e0
+¢
+rMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 45 - Kernel PCA/R/kernel_pca.R,6\c\6c6621021a09ffda5fe3549bcb906d0c4caddf7f
+°
+qMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 17 - Kernel SVM/Python/kernel_svm.ipynb,f\f\fff4a5ef9e0e6d31ad221a83d07912cb4b2f6522
+û
+nMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 17 - Kernel SVM/Python/kernel_svm.py,0\b\0b251de6828b7f94d7ac16a3873710e0a538c610
+ò
+hMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 17 - Kernel SVM/R/kernel_svm.R,1\0\10acbeac61f4d7924763389a72623056b4e16300
+°
+qMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/R/knn.R,4\e\4eefae427fafa21e803ceaca456eb4ea44dd40a2
+¥
+ÉMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 44 - Linear Discriminant Analysis (LDA)/R/lda.R,2\0\20535f70e077058b7d060cb00cc3b9572ec0a1d5
+÷
+•Machine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 44 - Linear Discriminant Analysis (LDA)/Python/linear_discriminant_analysis.ipynb,5\1\5147ed81d9194b87c1200e41aef746d163003ea4
+”
+¢Machine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 44 - Linear Discriminant Analysis (LDA)/Python/linear_discriminant_analysis.py,3\f\3f3eb1b3a7fab49f383de333c62661f2ac19c035
+¥
+ÉMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 14 - Logistic Regression/Python/logistic_regression.ipynb,4\1\417cd3dc44cd90e9a568e67f19f4612f713550ef
+±
+ÄMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 14 - Logistic Regression/Python/logistic_regression.py,a\b\ab113937ff776601bfa13bdc595d35717f38b99a
+™
+zMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 14 - Logistic Regression/R/logistic_regression.R,4\b\4b994d132dbef3ab1095d000272ef295d41d572d
+ß
+wMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 24 - K-Means Clustering/Python/Mall_Customers.csv,d\c\dc3cfd7d43a6295d35cc7701155cb0c6e2465507
+¢
+rMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 24 - K-Means Clustering/R/Mall_Customers.csv,8\2\82f684abf371bb75406413db4709fb07cedd6085
+¨
+|Machine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 25 - Hierarchical Clustering/Python/Mall_Customers.csv,2\f\2feff928894a9692f19b43526de3b02c7bb80d76
+ß
+wMachine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 25 - Hierarchical Clustering/R/Mall_Customers.csv,2\5\257caf18e61354bf830fb477a50f13dbab88364f
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 28 - Apriori/Python/Market_Basket_Optimisation.csv,d\1\d161c9231c5062d9c8db6de740237495194ca86f
+≥
+ÇMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 28 - Apriori/R/Market_Basket_Optimisation.csv,d\d\dde8702b802848e407e18bd1bec8f358ec12bb75
+∂
+ÖMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 29 - Eclat/Python/Market_Basket_Optimisation.csv,9\4\94df8f4da3e7a07f53f450355ad352254566287f
+±
+ÄMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 29 - Eclat/R/Market_Basket_Optimisation.csv,c\a\cabf4ed097dbd5bb239c9da4a6c9072fac2240a3
+◊
+¶Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/R/missing_data.R,a\5\a515ab72fce34f9dbe8acae1c3f68a96fffbb8e5
+Ω
+åMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 5 - Multiple Linear Regression/Python/multiple_linear_regression.ipynb,2\a\2ae28db3d440f78890cc07025446da15c4393bb6
+∫
+âMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 5 - Multiple Linear Regression/Python/multiple_linear_regression.py,9\7\97c9fbd77209e9e1dcdf4187c6471d6f093f8567
+¥
+ÉMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 5 - Multiple Linear Regression/R/multiple_linear_regression.R,2\a\2ad45803dc7b633ab92aeee4d7c540774aa66d76
+£
+sMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 18 - Naive Bayes/Python/naive_bayes.ipynb,6\f\6f12dcca18169a719c1f524ca075b70b17191537
+†
+pMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 18 - Naive Bayes/Python/naive_bayes.py,b\a\bab6b2b51f045348502c630afbddc1723bea733a
+ö
+jMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 18 - Naive Bayes/R/naive_bayes.R,8\2\82d91b9c516a5efa2e65406f170385e8563c4ed4
+—
+†Machine Learning A-Z (Codes and Datasets)/Part 7 - Natural Language Processing/Section 36 - Natural Language Processing/Python/natural_language_processing.ipynb,6\9\69319c986d006d181c279e11465b20a6676fcf3c
+Œ
+ùMachine Learning A-Z (Codes and Datasets)/Part 7 - Natural Language Processing/Section 36 - Natural Language Processing/Python/natural_language_processing.py,d\e\de0565cf415ee8fcacc82daa31729e4f1a2de93f
+»
+óMachine Learning A-Z (Codes and Datasets)/Part 7 - Natural Language Processing/Section 36 - Natural Language Processing/R/natural_language_processing.R,e\a\eaf5828dcb16ad6c6323e3d17932dc97670dce5a
+¥
+ÉMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/R/pca.R,4\b\4bcb62fa89102e2b71a124c35666213a576fd777
+Ø
+Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 6 - Polynomial Regression/Python/polynomial_regression.py,f\a\fae1b32cac72c3f55bb2d2d24eb4c3df03dba3f2
+∑
+ÜMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 7 - Support Vector Regression (SVR)/Python/Position_Salaries.csv,5\d\5da8eb5a4382fd08683993ca5854d37e6ebe69d3
+≤
+ÅMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 7 - Support Vector Regression (SVR)/R/Position_Salaries.csv,2\5\25df2d605f6b7e8c5fc42ac3b47168a505920ee4
+Ø
+Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 8 - Decision Tree Regression/Python/Position_Salaries.csv,3\b\3b4d96583a11516d3b9d15c81f2b6de99df5e6b9
+™
+zMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 8 - Decision Tree Regression/R/Position_Salaries.csv,6\6\663fb7e01fbd2015ceb8a64b86eceaac45c4ad5b
+Ø
+Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 9 - Random Forest Regression/Python/Position_Salaries.csv,3\f\3fc91308d9c1366e4f86850c0be4b104a92eafc4
+™
+zMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 9 - Random Forest Regression/R/Position_Salaries.csv,8\e\8e28273d14fe809749b08b97253712e70dcefec0
+÷
+•Machine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/Python/principal_component_analysis.ipynb,2\f\2fa84cf4c4808d907c8e55f8f2d713505336b05d
+”
+¢Machine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/Python/principal_component_analysis.py,2\9\2985191021b672083282d8dfce1085107a9c1939
+∆
+ïMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 20 - Random Forest Classification/Python/random_forest_classification.ipynb,8\9\898caaefc4930517a6d2e67c68b0d41b56a11ff7
+√
+íMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 20 - Random Forest Classification/Python/random_forest_classification.py,d\f\df0a6108581863a2b835b2eef59bd04b395fec2c
+Ω
+åMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 20 - Random Forest Classification/R/random_forest_classification.R,1\d\1de8fb8758214048de7235abd540e4210f41f051
+π
+àMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 9 - Random Forest Regression/Python/random_forest_regression.ipynb,b\c\bc1118dce3f6cb814c5c31e193365d69fc69fb97
+∂
+ÖMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 9 - Random Forest Regression/Python/random_forest_regression.py,3\c\3ccffef61d8cd1dff6eb91e1530aab1a5e54675e
+Ø
+Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 9 - Random Forest Regression/R/random_forest_regression.R,5\0\50db48b0aee6ed4a9b34a66f3b19273851cd6e81
+π
+àMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/R/random_selection.R,d\4\d4e55c178c46f94f719e048193a0839b37ee118b
+≠
+}Machine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/R/random_selection.R,1\b\1baa73c5a3b4518d1c48754af1c32d3ab21a691a
+™
+zMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 8 - Decision Tree Regression/R/regression_template.R,5\b\5b77c7748ed7b951e0c16bf9bde74a9665e1155e
+™
+zMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 9 - Random Forest Regression/R/regression_template.R,2\a\2af9fe5c9fc43262775eca372d03e75ab6bcbaa6
+∆
+ïMachine Learning A-Z (Codes and Datasets)/Part 7 - Natural Language Processing/Section 36 - Natural Language Processing/Python/Restaurant_Reviews.tsv,a\7\a70e570bf2e8b11a6b170637c39f328109448a11
+¡
+êMachine Learning A-Z (Codes and Datasets)/Part 7 - Natural Language Processing/Section 36 - Natural Language Processing/R/Restaurant_Reviews.tsv,0\4\041eebca1296a6a3a0727ec769f65c4f602cff02
+∂
+ÖMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 4 - Simple Linear Regression/Python/simple_linear_regression.py,b\1\b116b9375bfe9eaa816bd7fce6884dfeb32f5747
+◊
+¶Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 4 - Simple Linear Regression/Python/.ipynb_checkpoints/simple_linear_regression-checkpoint.ipynb,0\8\080ff04f28ceffca50bf0d121842f3ff31a6d549
+±
+ÄMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 14 - Logistic Regression/Python/Social_Network_Ads.csv,3\b\3b1610ccf54d05fbc1bf5af5f989ebb786e9cbe7
+´
+{Machine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 14 - Logistic Regression/R/Social_Network_Ads.csv,b\0\b0e7641915065351d995b464678505c694d6fc22
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/Python/Social_Network_Ads.csv,6\7\6717e99983db8f2a72a538a6281dc748fc23b6cc
+≥
+ÇMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 15 - K-Nearest Neighbors (K-NN)/R/Social_Network_Ads.csv,a\d\adc990ae00b9a6e66ba3fbaaf7dc5e054aadaff9
+∫
+âMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/Python/Social_Network_Ads.csv,6\c\6cd4efe151383e9491c799330809500a532e24d1
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/R/Social_Network_Ads.csv,c\c\cc392b70c61c2b15dbcb73959c26bb1cf6cf041b
+ß
+wMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 17 - Kernel SVM/Python/Social_Network_Ads.csv,4\c\4c74e7741a25e594ef3058e91fab2bd84d05c7a6
+¢
+rMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 17 - Kernel SVM/R/Social_Network_Ads.csv,4\c\4c9025610398845efc6ad2519fed458eecd10a6a
+®
+xMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 18 - Naive Bayes/Python/Social_Network_Ads.csv,8\a\8a12507a0ea992b4dcb3df53c97a27ceca6a257a
+£
+sMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 18 - Naive Bayes/R/Social_Network_Ads.csv,2\5\25868b6188a3f35d73a553fc8c659203663bbba4
+∫
+âMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 19 - Decision Tree Classification/Python/Social_Network_Ads.csv,e\a\eae3a8102129bf30b14681f72aca1bb284a34f51
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 19 - Decision Tree Classification/R/Social_Network_Ads.csv,7\f\7f33697b61ba7d7a7a09eaf80fca26fd0d9cdc0b
+∫
+âMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 20 - Random Forest Classification/Python/Social_Network_Ads.csv,3\5\35354ed58b0fe6554a8a46e73d757bd2a8785849
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 20 - Random Forest Classification/R/Social_Network_Ads.csv,1\4\142a5d9ef2605a032aa45df604d0d4b603b345a3
+¨
+|Machine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 45 - Kernel PCA/R/Social_Network_Ads.csv,2\b\2b83c86f77d02b4f5fec05a8f6b63cf6d43b708e
+∫
+âMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 48 - Model Selection/Python/Social_Network_Ads.csv,6\5\65f8e0b31fc63005baec970de67caaedbacb45ad
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 48 - Model Selection/R/Social_Network_Ads.csv,9\4\9408ef45b6f2829a5407b1954cbe8624223853b9
+¿
+èMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/Python/support_vector_machine.ipynb,a\f\af174516de3397c9a7214682c57c7390ce892e7d
+Ω
+åMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/Python/support_vector_machine.py,9\0\90088b4ab15fb1950d538a4bba98e4da58e51799
+¡
+êMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 7 - Support Vector Regression (SVR)/Python/support_vector_regression.ipynb,d\e\dec9f9dba08e695875d6e9cb49e4e83296a4cde7
+æ
+çMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 7 - Support Vector Regression (SVR)/Python/support_vector_regression.py,2\8\286fc02530743f3ae0a4ae9347c3b61fbc17a52c
+£
+sMachine Learning A-Z (Codes and Datasets)/Part 3 - Classification/Section 16 - Support Vector Machine (SVM)/R/svm.R,e\a\ea41e39b3190a2b5b41aa2e5df0d9cf148dbdbe0
+°
+qMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 7 - Support Vector Regression (SVR)/R/svr.R,c\f\cfbdc3495ca667839499e9c0d91080f3ed6ac6c6
+∏
+áMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/Python/thompson_sampling.ipynb,f\f\ff8956dd5b521497b15ed6b073043976cb7ad9c2
+µ
+ÑMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/Python/thompson_sampling.py,5\5\55c3358ac5e847cf6ac84225a0dc962d049aaf3b
+Æ
+~Machine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 33 - Thompson Sampling/R/thompson_sampling.R,1\4\14c834d62034c68bbbb019a0cbc029b76b718801
+»
+óMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/Python/upper_confidence_bound.ipynb,5\7\57f8f405feb4287858b0c32487bf5cdddd44fc87
+≈
+îMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/Python/upper_confidence_bound.py,2\f\2fae13f9abb9c56ba6a47d7987e2b846b45969fe
+ø
+éMachine Learning A-Z (Codes and Datasets)/Part 6 - Reinforcement Learning/Section 32 - Upper Confidence Bound (UCB)/R/upper_confidence_bound.R,d\5\d50c63d1ed686ede2625d09b88aa93b51aa0c47e
+º
+ãMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/Python/Wine.csv,b\a\baffffb5293feb8f0ca7777b4cad6151b58bd33c
+∑
+ÜMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 43 - Principal Component Analysis (PCA)/R/Wine.csv,f\4\f492402f77a0da2a66f4a60d42f0fdb54adb4e58
+º
+ãMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 44 - Linear Discriminant Analysis (LDA)/Python/Wine.csv,9\d\9d8cfaf4bc30387dfca9f7d6984b4ee536e909a1
+∑
+ÜMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 44 - Linear Discriminant Analysis (LDA)/R/Wine.csv,6\f\6f9193bf48a10cd7b5e3d63aa72baac94808ea27
+£
+sMachine Learning A-Z (Codes and Datasets)/Part 9 - Dimensionality Reduction/Section 45 - Kernel PCA/Python/Wine.csv,7\b\7b4d46dc07da2f58a4bfae36d95d6c41d1977755
+©
+yMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 49 - XGBoost/Python/xg_boost.ipynb,c\9\c98aa8c662fef6eda36a4f19d421ca8f8e735f33
+¶
+vMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 49 - XGBoost/Python/xg_boost.py,3\d\3d4353956bcf302e855f29b1c390d3f9ed4a35f3
+†
+pMachine Learning A-Z (Codes and Datasets)/Part 10 - Model Selection _ Boosting/Section 49 - XGBoost/R/xg_boost.R,2\7\27d8027d6c066f75887cf005915e1b6bac7b94a8
+£
+sMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 28 - Apriori/Python/apriori.py,8\b\8b6ed199f50dd42454dcd30755c49eb301458250
+ü
+oMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Section 29 - Eclat/Python/eclat.py,1\c\1c8be6659b614cda35b5bed69b40691e2524d61c
+Ï
+ªMachine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_template.py,8\f\8f1f96a07d0c1b70cd11697efcd3b084a99d98bc
+È
+∏Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_tools.py,0\9\09d95673acc402fdb161d53234c6e4b3f47fa75c

@@ -1,7 +1,7 @@
 # Data Preprocessing
 
 # Importing the dataset
-dataset <- read.csv('./Data.csv')
+dataset <- read.csv('C:/Users/User/PycharmProjects/first_project/Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/Data.csv')
 
 # Taking care of missing data
 dataset$Age <- ifelse(is.na(dataset$Age),
