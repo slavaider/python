@@ -184,18 +184,6 @@ g
 7bots/telegram_bot/telegram_tutorial/lesson_04/config.py,6\9\69d2b712c6dd33cd97eaf117f9694e00c4542b3e
 d
 4bots/telegram_bot/telegram_tutorial/lesson_05/bot.py,d\5\d50df5568e12604831d710f882f5ba69160cbeb7
-V
-&bots/vk_bot/bot1/commander/__init__.py,e\1\e142f354ada65cff9c1754cf6e265b78f6dc9332
-[
-+bots/vk_bot/bot1/commander/associations.txt,1\2\12eb9a0348e37a6ef0771d2ced95cad9678cd105
-W
-'bots/vk_bot/bot1/commander/commander.py,b\f\bf49427894b4a40d08c386b89ee65ec0bc8c71ec
-@
-bots/__init__.py,9\e\9e071e37f5555c14d2027edada6568c4ddf6fecf
-J
-bots/vk_bot/bot1/vk_bot.py,f\9\f941b28166cbf5211f98cc0aa824ab6d125e9ee9
-H
-bots/vk_bot/bot1/Main.py,9\b\9ba88f8831e9585d3e150e45a38089b44d185063
 s
 Cbots/telegram_bot/telegram_tutorial/book_src/themes/book/.gitignore,6\d\6daa6a1b146cf19eb112e0fc81d2c762e6fe06df
 ^
@@ -216,10 +204,6 @@ a
 1bots/telegram_bot/telegram_tutorial/docs/404.html,7\4\74da7a80bbdbebd4a837853eb9227300b415075a
 r
 Bbots/telegram_bot/telegram_tutorial/lesson_14/handlers/__init__.py,e\4\e4061f5d0141dfae73486b97ed634c1ac5b1a5c8
-L
-bots/vk_bot/bot1/__init__.py,6\f\6f8cdca8aaa07a71e395b19e64cae62a5da7db04
-G
-bots/vk_bot/__init__.py,2\6\2661ba70aece01c0736dd1bbe37a390c1021de7a
 |
 Lbots/telegram_bot/telegram_tutorial/book_src/themes/book/assets/_custom.scss,9\7\972482d6c510b33ec0aaaaeec753304523d9cd8e
 ˆ
@@ -904,3 +888,27 @@ Q
 !tasks/intermediate/47_students.py,6\1\61368e357cfbacd8b050d571bb6c60a919c398bf
 R
 "tasks/intermediate/48_shop_list.py,2\b\2b6513e7eee0e1da1182f4541a68d4b36cf333c7
+¯
+Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 4 - Simple Linear Regression/R/simple_linear_regression.R,c\f\cf48d39db6bbb408dbe1e39e89e8cc4037ce2c51
+©
+yMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 4 - Simple Linear Regression/Python/Salary_Data.csv,7\e\7e36bd3c4b949248ea40b896adc0f193390e2ab5
+¬
+|Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 6 - Polynomial Regression/Python/Position_Salaries.csv,e\3\e3ad9a6c391a695163bb4707dac08768df0cb8c8
+¯
+Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 6 - Polynomial Regression/R/data_preprocessing_template.R,7\b\7b8a9c1a4cec9530fd96c6245ac85669043a627d
+³
+‚Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 4 - Simple Linear Regression/R/data_preprocessing_template.R,c\e\ce29f9098e930a48eb9bbad13c0cf991ad496651
+¹
+ˆMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 4 - Simple Linear Regression/Python/simple_linear_regression.ipynb,e\3\e32f30337b2abf095b3bb04a156fb02756582f3a
+¤
+tMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 4 - Simple Linear Regression/R/Salary_Data.csv,0\5\05e9ab11374b50d7cfe6ccbce5c9a09e9b26b3d6
+©
+yMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 6 - Polynomial Regression/R/polynomial_regression.R,7\3\73992ddc6a12e93560392c8880408e115f1d6fe2
+§
+wMachine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 6 - Polynomial Regression/R/Position_Salaries.csv,5\f\5fbcc95c35218125eef940635fc40add7c616835
+³
+‚Machine Learning A-Z (Codes and Datasets)/Part 2 - Regression/Section 6 - Polynomial Regression/Python/polynomial_regression.ipynb,e\5\e52fff30d9d50bb94cbf69c46313fe2124be0d2a
+Û
+ªMachine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/R/categorical_data.R,7\6\76eb04703bd507b1d54011c2e2361d704ebd2cc2
+ï
+¾Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_template.ipynb,6\4\64af334eaaf4c92455a792f62b94a6f45072bdeb
