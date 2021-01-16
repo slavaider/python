@@ -1210,3 +1210,9 @@ oMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Se
 »Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_template.py,8\f\8f1f96a07d0c1b70cd11697efcd3b084a99d98bc
 é
 ¸Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_tools.py,0\9\09d95673acc402fdb161d53234c6e4b3f47fa75c
+i
+9Machine_learning/01_data_preprocessing/section_2/Data.csv,a\3\a35dd6f3437ec3fb860ff856f4d121980ee7c5fa
+n
+>Machine_learning/01_data_preprocessing/section_2/view_log.html,d\1\d1bb5c82fbc6cfd9c8b308b86f8b978e91cc416f
+j
+:Machine_learning/01_data_preprocessing/section_2/123.ipynb,e\b\eb02fc363550298f76e0d31e9edb115c76dc2ebe
