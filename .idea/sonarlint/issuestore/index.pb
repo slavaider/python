@@ -1210,9 +1210,15 @@ oMachine Learning A-Z (Codes and Datasets)/Part 5 - Association Rule Learning/Se
 »Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_template.py,8\f\8f1f96a07d0c1b70cd11697efcd3b084a99d98bc
 é
 ¸Machine Learning A-Z (Codes and Datasets)/Part 1 - Data Preprocessing/Section 2 -------------------- Part 1 - Data Preprocessing --------------------/Python/data_preprocessing_tools.py,0\9\09d95673acc402fdb161d53234c6e4b3f47fa75c
+ƒ
+SMachine_learning/02_regression/section_2_multiple_linear_regression/50_Startups.csv,8\b\8b2eb98195e6ac5468c52b0583a7ff90a2cdab49
 i
-9Machine_learning/01_data_preprocessing/section_2/Data.csv,a\3\a35dd6f3437ec3fb860ff856f4d121980ee7c5fa
-n
->Machine_learning/01_data_preprocessing/section_2/view_log.html,d\1\d1bb5c82fbc6cfd9c8b308b86f8b978e91cc416f
-j
-:Machine_learning/01_data_preprocessing/section_2/123.ipynb,e\b\eb02fc363550298f76e0d31e9edb115c76dc2ebe
+9Machine_learning/01_data_preprocessing/section_1/Data.csv,a\7\a7e33b1679f023a4d90690fe3023de247d4a6a73
+x
+HMachine_learning/01_data_preprocessing/section_1/data_reprocessing.ipynb,f\3\f32a5f69886bd27a6b85d200c66b47d5ccebadbd
+
+OMachine_learning/02_regression/section_1_linear_regression/linear_regression.py,8\4\846ec8e5d0f7537ed3905b028575678fd13c94f9
+z
+JMachine_learning/02_regression/section_1_linear_regression/Salary_Data.csv,c\0\c0fbb5f523a6b7ddc483762ec114055d3303bf9f
+z
+JMachine_learning/02_regression/section_2_multiple_linear_regression/mlr.py,0\1\01658fa63e53d4354ae1c11e7de6cd09b8ee1cad
