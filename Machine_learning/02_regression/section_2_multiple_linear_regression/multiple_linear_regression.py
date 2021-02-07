@@ -23,10 +23,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0, test_s
 # %% Create Multiple LinearRegression
 from sklearn.linear_model import LinearRegression
 
-regression = LinearRegression()
-regression.fit(X_train, y_train)
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
 
 # %% Predict X_test results
-y_pred = regression.predict(X_test)
+y_pred = regressor.predict(X_test)
 np.set_printoptions(precision=2)
 print(np.concatenate((y_pred.reshape(len(y_pred), 1), y_test.reshape(len(y_test), 1)), axis=1))

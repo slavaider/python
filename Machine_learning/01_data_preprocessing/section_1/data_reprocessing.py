@@ -1,5 +1,6 @@
 # dataset2 = pd.read_excel('C:\\Users\\User\\Downloads\\table_dataset8_data.xls')
 # %% Importing the libraries
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
@@ -39,3 +40,11 @@ from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 X_train[:, 3:] = sc.fit_transform(X_train[:, 3:])
 X_test[:, 3:] = sc.transform(X_test[:, 3:])
+# %% Visualization
+plt.scatter(X_test, y_test, color='red')
+# noinspection PyUnresolvedReferences
+plt.plot(X_train, regressor.predict(X_train), color='blue')
+plt.title('Salary vs experience (Test set)')
+plt.xlabel('Years of experience')
+plt.ylabel('Salary')
+plt.show()
